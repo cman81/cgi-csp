@@ -1,3 +1,4 @@
+body { font-family: Belleza; }
 .float-left { float: left; }
 .float-right { float: right; }
 .clear {
@@ -28,7 +29,8 @@
     padding: 20px 20px 0;
     width: 260px;
 }
-.tile-1.selected {
+.tile-1.selected,
+.tile-1.active {
 	height: 210px;
     margin: 0;
     padding: 30px 30px 0 30px;
@@ -44,4 +46,40 @@
 .icon-wrapper {
 	height: 160px;
 	text-align: center;
+}
+.detail-container {
+	background-color: #333;
+	padding: 50px;
+	margin-bottom: 50px;
+	display: none;
+}
+.detail-container.active { display: block; }
+.detail-container .detail-wrapper {
+	margin: 0 auto;
+	width: 1031px;
+}
+.screenshot {
+	border-right: 1px #ccc solid;
+	margin-right: 40px;
+    padding-right: 40px;
+    width: 450px;
+}
+.screenshot img { width: 450px; }
+.description { width: 500px; }
+.description p {
+	font-family: Bitter;
+	margin-bottom: 40px;
+	color: #999;
+	line-height: 19px;
+	font-size: 15px;
+}
+.description a {
+	font-family: Bitter;
+	background-color: #275839;
+	border: 1px solid #666;
+    padding: 10px 30px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
 }
