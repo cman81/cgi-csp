@@ -14,7 +14,8 @@ body { font-family: Belleza; }
 	width: 960px;
 	margin: 0 auto;
 }
-.tile a {
+.tile a,
+.tile .label {
 	font-family: Belleza;
 	font-size: 21px;
 	text-decoration: none;
