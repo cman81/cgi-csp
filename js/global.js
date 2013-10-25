@@ -30,4 +30,9 @@ $(document).ready(function() {
 		    }
 		};
 	});
+	$('.close-it').click(function() {
+		// reset
+		$('.tile').removeClass('active');
+		$('.detail-container').removeClass('active');
+	});
 });

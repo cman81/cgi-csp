@@ -9,7 +9,10 @@ body { font-family: Belleza; }
 	padding: 20px;
     width: 100px;
 }
-.content-wrapper { margin-top: 20px; }
+.content-wrapper {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
 .item-row {
 	width: 960px;
 	margin: 0 auto;
@@ -37,7 +40,8 @@ body { font-family: Belleza; }
     padding: 30px 30px 0 30px;
     width: 260px;
 }
-.branding-wrapper { background-color: #f1f1f1; }
+.branding-wrapper,
+.footer-wrapper { background-color: #f1f1f1; }
 .branding {
 	font-family: Belleza;
     font-size: 25px;
@@ -50,7 +54,7 @@ body { font-family: Belleza; }
 }
 .detail-container {
 	background-color: #333;
-	padding: 50px;
+	padding: 15px 15px 50px;
 	margin-bottom: 50px;
 	display: none;
 }
@@ -84,3 +88,10 @@ body { font-family: Belleza; }
     font-size: 17px;
     font-weight: bold;
 }
+.footer-wrapper { text-align: center; }
+.footer-wrapper p {
+    color: #666;
+    display: inline-block;
+    padding: 10px 40px;
+}
+.close-it { cursor: pointer; }
